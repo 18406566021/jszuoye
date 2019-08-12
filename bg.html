@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <table class="table table-striped table-border" id="my">
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>联系方式</th>
+            <th>操作</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td class="del">
+                <input type="button" value="删除" class="btn btn-danger">
+            </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td class="del">
+                <input type="button" value="删除" class="btn btn-danger">
+            </td>
+        </tr>
+    </table>
+    <input type="button" value="添加" class="btn btn-success" style="width: 50%;margin: 0 auto;display: block;" onclick="addValue()">
+</body>
+<script>
+    //事件委派
+    let table = document.querySelector(".table")
+    let btn = document.querySelector(".btn-success")
+    console.log(btn)
+    table.ondblclick = function (event){
+       let target = event.target
+        if (target.nodeName == "TD" && target.className!="del"){
+            changeValue(target)
+        }
+    }
+    function changeValue(item) {
+        let oldtext = item.innerText
+        let input = document.createElement("input")
+        item.innerText = ""
+        input.value = oldtext
+        input.onchange = function(){
+            item.innerText = this.value
+        }
+        item.appendChild(input)
+        input.focus()
+    }
+
+    function addValue() {
+        let table = document.getElementById("my")
+        let row = table.insertRow()
+        let ceil1 = row.insertCell(0)
+        let ceil2 = row.insertCell(1)
+        let ceil3 = row.insertCell(2)
+        let ceil4 = row.insertCell(3)
+        let ceil5 = row.insertCell(4)
+        ceil1.innerHTML = "1"
+        ceil2.innerHTML = "2"
+        ceil3.innerHTML = "3"
+        ceil4.innerHTML = "4"
+        ceil5.innerHTML = "<input type=\"button\" value=\"删除\" class=\"btn btn-danger\" onclick=\"popValue()\">"
+    }
+
+    function popValue() {
+        document.getElementById("my").deleteRow(1)
+    }
+</script>
+</html>
