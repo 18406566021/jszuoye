@@ -34,9 +34,9 @@
     display: block;
     width: 100%;
 }
-.wordBox{
+.screen{
     width: 5rem;
-    height: 7rem;
+    height: 7.2rem;
     background: rgba(0,255,0,0.2);
     overflow: hidden;
     position: absolute;
@@ -46,8 +46,14 @@
     margin-left: auto;
     margin-right: auto;
 }
-.wordBox div{
+.screen div{
     position: absolute;
+}
+.letter{
+    width: 0.53rem;
+    height: 0.77rem;
+    top: 0;
+    left: 0;
 }
 .lifeValue{
     width: 1.24rem;
@@ -56,7 +62,7 @@
     background-size: cover;
     position: absolute;
     top:3.23rem;
-    right:0.24rem;
+    right:0.12rem;
     overflow: hidden;
 }
 .lifeValue span{
@@ -78,7 +84,7 @@
     background-size: cover;
     position: absolute;
     top:4.6rem;
-    right:0.24rem;
+    right:0.12rem;
     overflow: hidden;
 }
 .integralValue span{
@@ -99,11 +105,15 @@
     /*background: yellow;*/
     position: absolute;
     bottom:1.42rem;
-    right:0.24rem;
+    right:0.12em;
+    cursor: pointer;
+    background: url("img/Play.png");
+    background-size: cover;
 }
 .pauseButton img{
     display: block;
     width:100%;
+    z-index: 10;
 }
 /*.rabbit{*/
     /*width: 0.45rem;*/
@@ -168,22 +178,6 @@
     margin-right: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*bottom开始*/
 .Bottom{
     width: 100%;
@@ -199,6 +193,9 @@
     margin: 0.25rem 0 0 0.24rem;
     border-radius: 0.2rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .keyBoard ul{
     display: flex;
