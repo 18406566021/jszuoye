@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>正则练习</title>
+</head>
+<body>
+ <div class="box">
+        <div class="son1">this is box</div>
+        <div class="son2">this is box</div>
+        <div class="son3">this is box</div>
+        <div class="son4">this is box</div>
+        <div class="son5">this is box</div>
+    </div>
+</body>
+<script>
+    // 求非负整数
+    // let arr1 = ["1","-1","1.1","-1.5","6"]
+    // let re1 = /^\d+$/
+    // for (let i=0;i<arr1.length;i++){
+    //     console.log(re1.exec(arr1[i]))
+    // }
+    // 匹配正整数
+    // let arr2 = ["1","-1","1.1","-1.5","6"]
+    // let re2 = /^[0-9]*[1-9][0-9]*$/
+    // arr2.forEach((item)=>{
+    //     console.log(re2.exec(item))
+    // })
+    // 非正整数
+    // let arr3 = ["1","-1","1.1","-1.5","6"]
+    // let re3 = /^-\d+$/
+    // arr3.forEach((item)=>{
+    //     console.log(re3.exec(item))
+    // })
+    // 负整数
+    // let arr4 = ["1","-1","1.1","-1.5","6"]
+    // let re4 = /^-\d+$/
+    // arr4.forEach((item)=>{
+    //     console.log(re4.exec(item))
+    // })
+    // 整数
+    // let arr5 = ["1","-1","1.1","-1.5","6"]
+    // let re5 = /^-?\d+$/
+    // arr5.forEach((item)=>{
+    //     console.log(re5.exec(item))
+    // })
+    // 非负浮点数
+    // let arr6 = ["1","-1","1.1","-1.5","6"]
+    // let re6 = /^\d+(\.\d+)$/
+    // arr6.forEach((item)=>{
+    //     console.log(re6.exec(item))
+    // })
+    // 正浮点数
+    // let arr7 = ["1","-1","1.1","-1.5","6"]
+    // let re7 = /^\d+(\.\d+)$/
+    // arr7.forEach((item)=>{
+    //     console.log(re7.exec(item))
+    // })
+    // 非正浮点数
+    // let arr8 = ["1","-1","1.1","-1.5","6"]
+    // let re8 = /^-\d+(\.\d+)$/
+    // arr8.forEach((item)=>{
+    //     console.log(re8.exec(item))
+    // })
+    // 负浮点数
+    // let arr9 = ["1","-1","1.1","-1.5","6"]
+    // let re9 = /^-\d+(\.\d+)$/
+    // arr9.forEach((item)=>{
+    //     console.log(re9.exec(item))
+    // })
+    // 浮点数
+    // let arr10 = ["1","-1","1.1","-1.5","6"]
+    // let re10 = /^(-?\d+)(\.\d+)$/
+    // arr10.forEach((item)=>{
+    //     console.log(re10.exec(item))
+    // })
+    // 有数字、26个英文字母组成的字符串
+    // let arr11 = ["35wadwr","wLWWaWadaw123","lww1231354","_456qqweqe","546_6654"]
+    // let re11 = /^[a-z,0-9]+$/i
+    // arr11.forEach((item)=>{
+    //     console.log(re11.exec(item))
+    // })
+    // 中级练习
+    // 长度为8-10的用户密码（以字母开头、数字、下划线）
+    // let ww1 = ["fas123569","_123456qqq","cacsw45_6","wwl5_521"]
+    // let re1 = /^[a-z]\w{7,10}$/i
+    // ww1.forEach((item)=>{
+    //     console.log(re1.exec(item))
+    // })
+    // 验证输入只能是汉字
+    // let ww2 = ["曹哈皮","caohapi","曹haP"]
+    // let re2 = /^[\u4e00-\u9fa5]{0,}$/
+    // ww2.forEach((item)=>{
+    //     console.log(re2.exec(item))
+    // })
+    // 电子邮箱验证
+    //     let arr = [
+    //     '842615663@qq.com',
+    //     'wetjih@163.com',
+    //     'we234tjih@163.cn',
+    //     'we234tjih@qq.cn',
+    //     'wqeotq345@yahoo.com.cn',
+    //     '842615663@qq',
+    //     '842615663qq.com',
+    //     '@qq.com'
+    // ]
+    // let re = /^\w+@(qq|163|yahoo)\.(com|cn)(\.cn)?$/
+    // arr.forEach((item)=>{
+    //     console.log(re.exec(item))
+    // })
+    // URL地址验证
+    // let str3 = "https://www.baidu.com/sdfa/asdf/?name=horns&age=18"
+    // let re = /(http:\/\/|https:\/\/)([\w,.]+)\/([\w,\/,\.]*)\?([\w,=,\u4e00-\u9fa5,&]*)/
+    // console.log(re.exec(str3))
+    // 电话号码的验证
+    // let arr1 = ['99912341234',"15723553456",'a1251566234','136121348590',"13635353667","17634666535"]
+    // re = /^(136|157|176)\d{8}$/
+    // arr1.forEach((item)=>{
+    //     console.log(re.exec(item))
+    // })
+    // 简单的身份证号验证
+    // let sfz = ["142201199809051666","142201199556633242313","4w56d4a6d4a6d4aw646daw6d"]
+    // let ff = /\d{15}?|\d{18}$/g
+    // sfz.forEach((item)=>{
+    //     console.log(ff.exec(item))
+    // })
+    // 提取并捕获html标签内容
+    // let str1 = `<div class="box">
+    // <div class="son">this is div</div>
+    // </div>`
+    // let re = /<[\w,\s,=,",']+>\n<[\w,\s,=,",']+>([\w,\s]+)<[\w,\s,=,",',\/]+>\n<[\w,\s,=,",',\/]+>/g
+    // console.log(re.exec(str1))
+</script>
+</html>
