@@ -11,6 +11,9 @@ window.onload = function () {
             this.key = document.querySelector(".keyBoard")
             this.sm = document.querySelector(".sm")
             this.jf = document.querySelector(".jf")
+            this.tc = document.querySelector(".alert")
+            this.df = document.querySelector(".box1")
+            this.ss = document.querySelector(".btn2")
             this.letters = []
             this.createLetter()
             this.iskill = false
@@ -79,7 +82,7 @@ window.onload = function () {
         run(){
             this.t = setInterval(()=>{
                 this.letters.forEach((item,index)=>{
-                    item.top+=0.1
+                    item.top+=0.2
                     item.node.style.top = item.top+"rem"
                     // 超出屏幕就删除
                     if (item.top>7.2){
@@ -87,11 +90,18 @@ window.onload = function () {
                         this.sm.innerText-=5
                         if (this.sm.innerText <= 0 ){
                             clearInterval(this.t)
-                            alert("你炸了,别点了！")
+                            this.tc.style.display = "block"
+                            this.df.innerHTML = this.jf.innerText
+                            this.Reload()
                         }
                     }
                 })
             },100)
+        }
+        Reload(){
+            this.ss.ontouchstart = ()=>{
+                window.location.reload()
+            }
         }
 
         runToggle(){
@@ -143,6 +153,6 @@ window.onload = function () {
             this.createLetter(1)
         }
     }
-    let game = new Game(".screen",".pauseButton",".keyBoard")
+    let game = new Game(".screen",".pauseButton",".keyBoard",".overPlay span",".btn .btn2")
 
 }

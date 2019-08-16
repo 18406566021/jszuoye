@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="340660c9-f3ec-48af-bdb7-41ac91d0063d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="340660c9-f3ec-48af-bdb7-41ac91d0063d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+            <state relative-caret-position="455">
+              <caret line="136" column="7" lean-forward="true" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -119,12 +116,12 @@
       <workItem from="1565865452928" duration="1718000" />
       <workItem from="1565873598418" duration="5916000" />
       <workItem from="1565915836485" duration="41000" />
-      <workItem from="1565915898203" duration="10000" />
+      <workItem from="1565915898203" duration="936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11176000" />
+    <option name="totallyTimeSpent" value="12102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="792" y="4" width="728" height="764" extended-state="0" />
@@ -182,8 +179,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+        <state relative-caret-position="455">
+          <caret line="136" column="7" lean-forward="true" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
         </state>
       </provider>
     </entry>
