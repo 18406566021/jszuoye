@@ -19,14 +19,14 @@ window.onload = function(){
                 con2+=` <div class="">
                 <input type="checkbox" checked index='${index}' tp="done">
                 <p index=${index}>${item.title}</p>
-                <span index=${index} style="cursor:pointer;">icon</span>
+                <span index=${index} style="cursor:pointer;">--</span>
             </div>`
                 doneData += index
             }else{
                 con1+=` <div class="">
                 <input type="checkbox" index="${index}" tp="doing">
                 <p index=${index}>${item.title}</p>
-                <span index=${index} style="cursor:pointer;">icon</span>
+                <span index=${index} style="cursor:pointer;">--</span>
             </div>`
                 doingData += index
             }

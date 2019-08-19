@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54329771-7a3b-405d-9c76-4fd16e6444e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../打字游戏/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist/guanbi.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../打字游戏/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../打字游戏/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/F.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/G.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/H.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/I.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/J.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/K.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/L.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/M.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/N.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/O.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/P.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/Q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/R.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/T.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/U.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/V.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/W.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/Y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/img/A_Z/Z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../打字游戏/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../打字游戏/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/todolist.js" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/todolist.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todolist/todolist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="532">
+              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -59,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todolist/todolist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="152">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -78,19 +46,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/新todo.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="80" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="252" />
+    <option name="y" value="57" />
     <option name="width" value="1510" />
     <option name="height" value="970" />
   </component>
@@ -100,7 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,11 +74,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/todolist" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -130,6 +90,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86184\Desktop\jszuoye\新todo\todolist" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,17 +120,18 @@
       <updated>1565662813514</updated>
       <workItem from="1565662815256" duration="9396000" />
       <workItem from="1565749321176" duration="260000" />
+      <workItem from="1566004802260" duration="1838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9656000" />
+    <option name="totallyTimeSpent" value="11494000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="64" width="1208" height="776" extended-state="0" />
+    <frame x="202" y="46" width="1208" height="776" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33043477" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33652174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -194,19 +160,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/todolist/todolist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="152">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todolist/todolist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
         </state>
       </provider>
     </entry>
