@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340660c9-f3ec-48af-bdb7-41ac91d0063d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../新todo/todolist/guanbi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../打字游戏/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../打字游戏/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../新todo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新todo/todolist/todolist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../新todo/todolist/todolist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../放大镜 new/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../放大镜 new/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../放大镜 new/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="232" column="38" selection-start-line="232" selection-start-column="38" selection-end-line="232" selection-end-column="38" />
+            <state relative-caret-position="68">
+              <caret line="236" column="4" lean-forward="true" selection-start-line="236" selection-start-column="7" selection-end-line="245" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -48,10 +46,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1083" />
-    <option name="width" value="833" />
-    <option name="height" value="955" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1045" />
+    <option name="height" value="645" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,14 +124,16 @@
       <workItem from="1565915898203" duration="936000" />
       <workItem from="1566019935181" duration="1901000" />
       <workItem from="1566116015805" duration="7270000" />
+      <workItem from="1566178242956" duration="387000" />
+      <workItem from="1566210480323" duration="1058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21273000" />
+    <option name="totallyTimeSpent" value="22718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="867" y="0" width="666" height="764" extended-state="1" />
+    <frame x="-8" y="-8" width="836" height="516" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25820896" />
@@ -187,8 +188,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="232" column="38" selection-start-line="232" selection-start-column="38" selection-end-line="232" selection-end-column="38" />
+        <state relative-caret-position="68">
+          <caret line="236" column="4" lean-forward="true" selection-start-line="236" selection-start-column="7" selection-end-line="245" selection-end-column="15" />
         </state>
       </provider>
     </entry>
